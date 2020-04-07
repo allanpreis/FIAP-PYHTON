@@ -19,9 +19,9 @@ while pais !=3:
         [F] Fluvial ⛴
         [A] Aéreo ✈''')
             print('-' * 30)
-            transporte = (input('Qual o Meio de Transporte? '))
+            transporte = (input('Qual o Meio de Transporte? ')).upper()
             if transporte == 'T':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5/100
@@ -47,7 +47,7 @@ while pais !=3:
                 else:
                     print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'F':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
@@ -73,7 +73,7 @@ while pais !=3:
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'A':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
@@ -107,9 +107,9 @@ while pais !=3:
         [F] Fluvial ⛴
         [A] Aéreo ✈''')
             print('-' * 30)
-            transporte = (input('Qual o Meio de Transporte? '))
+            transporte = (input('Qual o Meio de Transporte? ')).upper()
             if transporte == 'T':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
@@ -135,7 +135,7 @@ while pais !=3:
                 else:
                     print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'F':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
@@ -161,7 +161,7 @@ while pais !=3:
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'A':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
@@ -195,9 +195,9 @@ while pais !=3:
         [F] Fluvial ⛴
         [A] Aéreo ✈''')
             print('-' * 30)
-            transporte = (input('Qual o Meio de Transporte? '))
+            transporte = (input('Qual o Meio de Transporte? ')).upper()
             if transporte == 'T':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
@@ -223,7 +223,7 @@ while pais !=3:
                 else:
                     print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'F':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
@@ -249,7 +249,7 @@ while pais !=3:
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'A':
-                carga = input('\nA carga é perigosa? [S/N] ')
+                carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
