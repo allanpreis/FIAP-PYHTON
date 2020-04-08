@@ -25,25 +25,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5/100
-                        pf = preco + imposto + 21.00 + 0
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20/100
-                        pf = preco + imposto + 21.00 + 0
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 21.00 + 0
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 21.00 + 0
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 21.00 + 0
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 21.00 + 0
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'F':
@@ -51,25 +45,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 21.00 + 0
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 21.00 + 0
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 21.00 + 0
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 21.00 + 0
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 21.00 + 0
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 21.00 + 0
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'A':
@@ -77,25 +65,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 21.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 21.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 21.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 21.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 21.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 21.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
         break
@@ -113,25 +95,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 27.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 27.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 27.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 25.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 25.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 25.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'F':
@@ -139,25 +115,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 27.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 27.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 27.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 25.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 25.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 25.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'A':
@@ -165,25 +135,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 27.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 27.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 27.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 25.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 25.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 25.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
         break
@@ -201,25 +165,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 50.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 50.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 50.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 40.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 40.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 40.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'F':
@@ -227,25 +185,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 50.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 50.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 50.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 40.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 40.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 40.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
             elif transporte == 'A':
@@ -253,25 +205,19 @@ while pais !=3:
                 if (carga == 'S'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 50.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 50.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 50.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 elif (carga == 'N'):
                     if (preco <= 100.00):
                         imposto = preco * 5 / 100
-                        pf = preco + imposto + 40.00 + (preco / 2)
-                        print('\nO preço final é R${:.2f}'.format(pf))
-                        break
                     else:
                         imposto = preco * 20 / 100
-                        pf = preco + imposto + 40.00 + (preco / 2)
-                        print('\nO preço final é R${:2f}'.format(pf))
-                        break
+                    pf = preco + imposto + 40.00 + (preco / 2)
+                    print('\nO preço final é R${:.2f}'.format(pf))
+                    break
                 else:
                     print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
         break
