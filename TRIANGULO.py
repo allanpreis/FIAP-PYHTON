@@ -14,5 +14,5 @@ if n1 < n2 + n3 and n2 < n1 + n3 and n3 < n1 + n2:
     else:
         print('isósceles!')
 else:
-    print('\nOs valores inseridos não formam um triângulo!')
+    print('\n\033[31mOs valores inseridos não formam um triângulo!\033[m')
 

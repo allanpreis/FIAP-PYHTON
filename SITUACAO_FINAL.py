@@ -10,8 +10,8 @@ reprovado = 80 * (25/100)
 media = (p1 + p2 + p3) / 3
 
 if (falta > reprovado):
-        print('\n{} foi Reprovado por Falta!!!'.format(nome))
+        print('\n\033[31m{} foi Reprovado por Falta!!!\033[m'.format(nome))
 elif (media < 7.0):
-        print('\n{} foi Reprovado por Média!!!'.format(nome))
+        print('\n\033[31m{} foi Reprovado por Média!!!\033[m'.format(nome))
 else:
-    print('\n{} foi Aprovado!!!'.format(nome))
+    print('\n\033[32m{} foi Aprovado!!!\033[m'.format(nome))

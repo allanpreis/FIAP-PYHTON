@@ -39,7 +39,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
             elif transporte == 'F':
                 carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
@@ -59,7 +59,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
             elif transporte == 'A':
                 carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
@@ -79,7 +79,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
         break
     elif pais == 2:
         transporte = 0
@@ -109,7 +109,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
             elif transporte == 'F':
                 carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
@@ -129,7 +129,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
             elif transporte == 'A':
                 carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
@@ -149,7 +149,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
         break
     elif pais == 3:
         transporte = 0
@@ -179,7 +179,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digita incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
             elif transporte == 'F':
                 carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
@@ -199,7 +199,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
             elif transporte == 'A':
                 carga = input('\nA carga é perigosa? [S/N] ').upper()
                 if (carga == 'S'):
@@ -219,7 +219,7 @@ while pais !=3:
                     print('\nO preço final é R${:.2f}'.format(pf))
                     break
                 else:
-                    print('\nValor digitado está incorreto, por favor informe [S/N] com letras maiúsculas')
+                    print('\n\033[31mValor digitado incorreto, por favor informe [S/N] com letras maiúsculas\033[m')
         break
 
 print('\nObrigado por consultar nossos serviços volte sempre!')

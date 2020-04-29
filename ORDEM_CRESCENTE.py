@@ -31,4 +31,4 @@ elif n3 < n1 and n3 < n2:
         print(' {}, '.format(n2), end='')
         print('{} '.format(n1))
 elif n1 == n2 and n1 == n3:
-    print('\nOs três números digitados são iguais')
+    print('\n\033[31mOs três números digitados são iguais\033[m')

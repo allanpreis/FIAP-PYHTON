@@ -1,4 +1,4 @@
-nome = input('Insira seu nome:')
+nome = input('Insira seu nome: ')
 print('Olá, {}.\n'.format(nome),'Informe abaixo o valor do seu boleto, o percentual de juros e os dias de atraso para que possa saber quanto será o novo valor de seu boleto')
 
 n1 = float(input("Valor do Boleto: R$"))

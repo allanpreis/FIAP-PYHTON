@@ -16,8 +16,8 @@ else:
     else:
         minimo = n1 * 30 / 100
         if n2 <= minimo:
-         print("Empréstimo aprovado!")
+         print("\033[32mEmpréstimo aprovado!\033[m")
         else:
-         print("Empréstimo negado!")
+         print("\033[31mEmpréstimo negado!\033[m")
 
 print('\nPrograma encerrado')

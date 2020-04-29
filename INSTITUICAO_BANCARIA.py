@@ -21,7 +21,7 @@ if conta >= 100 and conta <= 999:
 
     print('\n Seu código verificador é {}'.format(s))
 else:
-    print('\nO número de conta digitado é inválido')
+    print('\n\033[31mO número de conta digitado é inválido\033[m')
 
 
 

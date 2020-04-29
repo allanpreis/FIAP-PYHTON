@@ -40,7 +40,7 @@ while opcao !=3:
         elif opcao == 3:
             print('\nSaindo do programa...')
         else:
-            print('\nVocê escolheu uma opção inválida!!!')
+            print('\n\033[31mVocê escolheu uma opção inválida!!!\033[m')
     sleep(2)
 print('=' * 80)
 print(' ESTACIONAMENTO SEMPRE BEM-VINDO AGRADECE POR USAR NOSSOS SERVIÇO, VOLTE SEMPRE ')

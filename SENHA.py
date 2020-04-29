@@ -4,6 +4,6 @@ print('Coloque abaixo sua senha para entrar\n')
 
 n1 = int(input('Senha: '))
 if n1 == 1214:
-    print('\nAcesso permitido')
+    print('\n\033[32mAcesso permitido\033[m')
 else:
-    print('\nVocê não tem acesso ao sistema')
+    print('\n\033[31mVocê não tem acesso ao sistema\033[m')

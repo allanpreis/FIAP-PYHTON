@@ -24,6 +24,6 @@ while opcao !=3:
         print('\nSaindo do programa...')
 
     else:
-        print('\nVocê escolheu uma opção inválida!!!')
+        print('\n\033[31mVocê escolheu uma opção inválida!!!\033[m')
 print('\nFim do programa')
 
