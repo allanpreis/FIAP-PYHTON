@@ -1,6 +1,6 @@
 cont = 0
 soma = 0
-while(cont<5):
+while(cont<50):
     idade = int(input("Insira sua idade: "))
     if(idade >= 0 and idade <= 122):
         cont = cont + 1

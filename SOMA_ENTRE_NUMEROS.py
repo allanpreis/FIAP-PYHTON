@@ -9,6 +9,6 @@ if(n1>n2):
 while(n1<n2):
     n1+=1
     if(n1!=n2):
-        soma = soma + n1
+        soma+= n1
         print(n1)
 print("A soma dos números existentte entre os números digitados é ", soma)
