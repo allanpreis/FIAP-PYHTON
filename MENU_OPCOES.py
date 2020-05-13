@@ -5,7 +5,7 @@ print('Informe abaixo a operação que deseja\n')
 opcao = 0
 while opcao !=3:
     print('-' * 30)
-    print('''    [1] Somar dois números 
+    print('''    [1] Somar dois números
     [2] Raiz quadrada
     [3] Sair do programa''')
     print('-' * 30)
@@ -26,4 +26,6 @@ while opcao !=3:
     else:
         print('\n\033[31mVocê escolheu uma opção inválida!!!\033[m')
 print('\nFim do programa')
+
+
 
