@@ -20,7 +20,7 @@ while opcao !=5:
             print('-' * 20)
             fileira = int(input("Qual fileira deseja? "))
             if fileira == 1:
-                poltrona = int(input("Qual o número da poltrona deseja? "))
+                poltrona = int(input("Qual o número da poltrona deseja \033[33m(de 1 a 24)\033[m? "))
                 poltrona = (poltrona - 1)
                 if janela[poltrona] == 1:
                     print("\033[31mPoltrona ocupada. Venda não realizada!\033[m")
@@ -45,7 +45,7 @@ while opcao !=5:
             print('-' * 20)
             fileira = int(input("Qual fileira deseja? "))
             if fileira == 1:
-                poltrona = int(input("Qual o número da poltrona deseja? "))
+                poltrona = int(input("Qual o número da poltrona deseja \033[33m(de 1 a 24)\033[m? "))
                 poltrona = (poltrona - 1)
                 if janela[poltrona] == 0:
                     print("\033[31mPoltrona livre. Compra não cancelada!\033[m")
