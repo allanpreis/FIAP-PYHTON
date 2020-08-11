@@ -62,7 +62,7 @@ while opcao !=5:
                     print("\033[32mCompra cancelada com sucesso! \033[m")
 
     elif opcao == 3:
-        janela_ocupada =  janela
+        janela_ocupada = janela
         print("Janela: ")
         for (i, janela_ocupada) in enumerate(janela_ocupada, start=1):
             print(i,"-", str(janela_ocupada).replace("1", "Ocupado").replace("0", "Livre"))
