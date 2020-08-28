@@ -6,7 +6,7 @@ for c in range(0, len(lista)):
     if c % 2 == 0:
         print(f'{lista[c]:.<30}', end='')
     else:
-        print(f'R${lista[c]:>7.2f}')
+        print(f'R${lista[c]:>8.2f}')
 print('-'*40)
 total = lista[1] + lista[3] + lista[5]
 print(f'{"Total":.<30}', f'R${total:>7.2f}')
